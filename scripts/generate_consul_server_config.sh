@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-export DATACENTER=${DATACENTER:-"dc1"}
+export DATACENTER=${DATACENTER:-"CPT"}
 export DOMAIN=${DOMAIN:-"consul"}
-export CONSUL_DATA_DIR=${CONSUL_DATA_DIR:-"/etc/consul/data"}
-export CONSUL_CONFIG_DIR=${CONSUL_CONFIG_DIR:-"/etc/consul/config"}
+export CONSUL_DATA_DIR=${CONSUL_DATA_DIR:-"/opt/consul/data"}
+export CONSUL_CONFIG_DIR=${CONSUL_CONFIG_DIR:-"/opt/consul/config"}
 
 export DNS_RECURSOR=${DNS_RECURSOR:-"1.1.1.1"}
 export HTTPS_PORT=${HTTPS_PORT:-"8443"}
